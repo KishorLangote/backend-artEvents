@@ -37,6 +37,10 @@ const artEventSchema = new mongoose.Schema(
       type: String,
       enum: ["Artist", "Writer", "Poet", "Curator","Art Historian", "Museum Director", "Art Restorer", "Gallery Owner", "Art Collector", "Senior Curator", "Art Critic", "Archaeologist", "Cultural Historian", "Art Conservator", "Guest Artist", "Cultural Expert", "Historian", "Renowned Sculptor", "Digital Artist", "Art Therapist", "Chief Curator", "Architect", "Modern Art Expert", "American Art Curator", "Museum Educator", "Art Curator"] 
       }],
+    
+    hostBy: [{
+      type: String,
+    }],
 
     hostImageUrl: {
        type: String 
