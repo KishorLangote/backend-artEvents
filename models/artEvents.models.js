@@ -1,84 +1,3 @@
-// const mongoose = require("mongoose")
-
-// const artEventSchema = new mongoose.Schema({
-//     title: {
-//       type: String,
-//     },
-
-//     date: {
-//       type: String,
-//     },
-
-//     continent: {
-//       type: String,
-//     },
-
-//     eventImageUrl: {
-//       type: String,
-//     },
-
-//     host: [{
-//       type: String,
-//       enum: ["Artist", "Writer", "Poet" ]
-//     }],
-
-//     hostImageUrl: {
-//       type: String,
-//     },
-
-//     descriptions: {
-//       type: String,
-//     },
-
-//     artGalleryName: {
-//       type: String,
-//     },
-
-//     startEvent: {
-//       type: String,
-//     },
-
-//     endEvent: {
-//       type: String,
-//     },
-
-//     address: {
-//       type: String,
-//     },
-
-//     googleMapImageUrl: {
-//       type: String,
-//     },
-
-//     entryFee: {
-//       type: String,
-//     },
-
-//     artistName: {
-//       type: String,
-//     },
-
-//     artistImageUrl: [{
-//       type: String,
-//     }],
-
-//     officialWebsite: {
-//       type: String,
-//     },
-
-//     artistCount: {
-//       type: Number,
-//     },
-// },
-// {
-//   timestamps: true,
-// }
-// )
-
-// const ArtEvents = mongoose.model("ArtEvent", artEventSchema)
-
-// module.exports = ArtEvents;
-
 const mongoose = require("mongoose");
 
 const artEventSchema = new mongoose.Schema(
@@ -182,6 +101,7 @@ const artEventSchema = new mongoose.Schema(
       {
         name: { type: String },
         imageUrl: { type: String },
+        bio: { type: String },
         artWorkImageUrl: [
           {
             imageUrl:{ type: String },

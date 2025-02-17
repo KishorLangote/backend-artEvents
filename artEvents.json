@@ -9,7 +9,7 @@
     "eventImageUrl": "https://example.com/event-image.jpg",
     "host": ["Artist", "Poet"],
     "hostImageUrl": "https://example.com/host-image.jpg",
-    "descriptions": "A grand art festival showcasing contemporary and classic art pieces.",
+    "descriptions": "A grand art festival showcasing contemporary and classic art pieces. International Art Festival 2025 (June 10, New York) Hosted at The Grand Art Gallery, this festival showcases 25 artists, including Johnson’s ethereal watercolors. The event features live poetry readings, workshops, and interactive sessions. Open 10 AM–8 PM, tickets ($20 USD) include access to diverse mediums, from sculptures to digital art.",
     "artGalleryName": "The Grand Art Gallery",
     "startEvent": "10:00 AM",
     "endEvent": "08:00 PM",
@@ -32,6 +32,7 @@
       {
         "name": "Emily Johnson",
         "imageUrl": "https://images.squarespace-cdn.com/content/v1/60653a0adddbc25843401a8d/f09ec9b2-6a6d-478d-b151-68934e2b5001/IMG_2281+2.jpeg?format=500w",
+        "bio": "Emily Johnson is a contemporary American artist renowned for her intricate watercolor depictions of birds and flora. Blending scientific precision with poetic lyricism, her work captures the delicate interplay between wildlife and natural environments. Featured in prestigious galleries worldwide, Johnson’s pieces like Goldfinch and Spotted Owl Among the Stars reflect her fascination with biodiversity and environmental conservation. A trained botanist, she merges art and ecology, offering viewers a meditative exploration of nature’s fragility.",
 
         "artWorkImageUrl": [
           {
@@ -77,7 +78,7 @@
     "eventImageUrl": "https://www.gokite.travel/wp-content/uploads/2021/10/Louvre-Museum-Abu-Dhabi-Tickets-3-1-870x480.webp",
     "host": ["Curator", "Art Historian"],
     "hostImageUrl": "https://www.gokite.travel/wp-content/uploads/2021/10/Louvre-Museum-Abu-Dhabi-Tickets-5-870x480.webp",
-    "descriptions": "A cross-continental exhibition at the iconic Louvre Abu Dhabi, featuring masterpieces from Asian and Middle Eastern artists.",
+    "descriptions": "A cross-continental exhibition at the iconic Louvre Abu Dhabi, featuring masterpieces from Asian and Middle Eastern artists. Global Art Masters Exhibition 2025 (September 15–October 15, Louvre Abu Dhabi) This exhibition highlights 40 artists from Asia and the Middle East, featuring Mater’s Real Illusion. Free entry, extended hours (9 AM–10 PM), and curator-led talks under Jean Nouvel’s iconic dome make it a cultural landmark.",
     "artGalleryName": "Louvre Abu Dhabi",
     "startEvent": "09:00 AM",
     "endEvent": "10:00 PM",
@@ -101,6 +102,7 @@
   {
     "name": "Ahmed Mater",
     "imageUrl": "https://www.ithra.com/application/files/cache/thumbnails/678b53392ea8a2b2aa79aa1baf275362.jpg",
+    "bio": "Ahmed Mater is a Saudi Arabian artist and physician whose work critically examines socio-political and cultural narratives in the Middle East. Known for installations like Mecca Windows and The Black Stone, Mater employs mixed media to explore themes of urbanization, spirituality, and identity. A leading voice in contemporary Arab art, his practice bridges traditional Islamic motifs with modern conceptual frameworks.",
 
     "artWorkImageUrl": [
       {
@@ -148,7 +150,7 @@
     "eventImageUrl": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/542000/542122-museo-soumaya.jpg",
     "host": ["Gallery Owner", "Art Collector"],
     "hostImageUrl": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/168000/168570-Museo-Soumaya.jpg",
-    "descriptions": "Pan-American art showcase at Latin America's most visited museum",
+    "descriptions": "Pan-American art showcase at Latin America's most visited museum. Americas Art Convergence (November 5–30, Museo Soumaya, Mexico City) Featuring 60 Latin American artists, this event includes Kahlo’s surrealist masterpieces. Free admission, bilingual tours, and artisan markets celebrate Mexico’s artistic renaissance.",
     "artGalleryName": "Museo Soumaya",
     "startEvent": "10:30 AM",
     "endEvent": "06:30 PM",
@@ -171,6 +173,7 @@
       {
         "name": "Frida Kahlo",
         "imageUrl": "https://www.fridakahlo.org/assets/img/frida-photo.jpg",
+        "bio": "Frida Kahlo (1907–1954) remains one of Mexico’s most iconic surrealist painters, celebrated for her deeply personal and symbolic self-portraits. Her work, including The Wounded Deer and Self-Portrait Dedicated to Dr. Eloesser, explores pain, identity, and Mexican culture through vibrant colors and surreal imagery.",
 
         "artWorkImageUrl": [
           {
@@ -211,7 +214,7 @@
     "eventImageUrl": "https://yometro.com/images/places/jehangir-art-gallery.jpg",
     "host": ["Senior Curator", "Art Critic"],
     "hostImageUrl": "https://tripxl.com/blog/wp-content/uploads/2024/10/Location-342.jpg",
-    "descriptions": "Historic gallery showcasing cutting-edge Indian contemporary art in South Mumbai",
+    "descriptions": "Historic gallery showcasing cutting-edge Indian contemporary art in South Mumbai. Contemporary Indian Art Biennale (March 1–April 15, Mumbai) Hosted at Jahangir Art Gallery, this biennale spotlights Gaitonde’s Untitled series alongside digital installations. Free entry and nightly performances dissect India’s evolving art scene.",
     "artGalleryName": "Jahangir Art Gallery",
     "startEvent": "11:00 AM",
     "endEvent": "07:00 PM",
@@ -236,6 +239,7 @@
       {
         "name": "V. S. Gaithonde",
         "imageUrl": "https://artlogic-res.cloudinary.com/w_345,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0399/usr/images/artists/artist_image/items/1b/1be1847d003c46b88c8f7a3901f1da45/gaitonde.jpeg",
+        "bio": "Vasudeo Santu Gaitonde (1924–2001) was a trailblazer of Indian abstract art, renowned for his meditative, non-representational canvases. His works, characterized by luminous textures and minimalist compositions, evoke spiritual tranquility and philosophical depth.",
 
         "artWorkImageUrl": [
           {
@@ -294,7 +298,7 @@
     "eventImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/68/c2/fa/museum-of-goa.jpg?w=900&h=500&s=1",
     "host": ["Renowned Sculptor", "Art Historian"],
     "hostImageUrl": "https://lh3.googleusercontent.com/p/AF1QipOzPJ1PadhojC6EgrhZJ93nYCRTvyJozLhPxeqH=s680-w680-h510",
-    "descriptions": "Showcasing a fusion of sculpture, digital installations, and Goan cultural art.",
+    "descriptions": "Showcasing a fusion of sculpture, digital installations, and Goan cultural art. Museum of Goa Contemporary Art Festival (July 20–August 20, Goa) This festival showcases Husain’s Untitled (Four Horses) alongside Goan cultural art and digital installations. Tickets: 150 INR.",
     "artGalleryName": "Museum Of Goa",
     "startEvent": "10:30 AM",
     "endEvent": "06:00 PM",
@@ -318,6 +322,7 @@
       {
         "name": "M. F. Husain",
         "imageUrl":"https://arthistoryschool.com/wp-content/uploads/2022/07/husain.jpg",
+        "bio": "Maqbool Fida Husain (1915–2011), India’s “Picasso of Modern Art,” revolutionized Indian modernism with vibrant, dynamic works like Horses and Yeh Kaun Sa Modh Hai Umar Ka. His bold use of color and themes of mythology and rural life made him a cultural icon.",
 
         "artWorkImageUrl": [
           {
@@ -363,7 +368,7 @@
     "eventImageUrl": "https://images.deccanherald.com/deccanherald%2Fimport%2Fsites%2Fdh%2Ffiles%2Farticleimages%2F2023%2F01%2F08%2Ffile7dr1ko12s0z5h90yya-1178419-1673123401.jpg?format=webp&q=70&w=900&dpr=1.5",
     "host": ["Museum Director", "Art Conservator"],
     "hostImageUrl": "https://www.trawell.in/admin/images/upload/138606188National_Gallery_Modern_Art.jpg",
-    "descriptions": "India's premier institution for modern art spanning 1857-present",
+    "descriptions": "India's premier institution for modern art spanning 1857-present. Modern Masters of India (Permanent Exhibition, Bengaluru) At the National Gallery of Modern Arts, Sher-Gil’s Hill Women anchors a collection spanning 1857–present. Entry: 20 INR.",
     "artGalleryName": "National Gallery of Modern Arts (Bengaluru)",
     "startEvent": "09:30 AM",
     "endEvent": "05:30 PM",
@@ -387,6 +392,7 @@
   {
     "name": "Amrita Sher-Gil",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Amrita_Sher-Gil_2.jpg/330px-Amrita_Sher-Gil_2.jpg",
+    "bio": "Amrita Sher-Gil (1913–1941), often hailed as India’s Frida Kahlo, revolutionized modern Indian art with her evocative portrayals of rural life and female subjectivity. Works like Three Girls blend European post-impressionism with Indian traditions." ,
 
     "artWorkImageUrl": [
       {
@@ -432,7 +438,7 @@
     "eventImageUrl": "https://www.manojphulambrikar.com/images/museum/Zapurza-Museum-Identity-banner.jpg",
     "host": ["Cultural Expert", "Historian"],
     "hostImageUrl": "https://zapurza.org/wp-content/uploads/2023/07/MG_0665-copy-scaled.jpg",
-    "descriptions": "A grand celebration of traditional and contemporary Indian art forms.",
+    "descriptions": "A grand celebration of traditional and contemporary Indian art forms. Zapurza Art & Culture Festival (April 10–May 10, Pune)This festival features Langote’s Stephen Hawking and Grandma’s Bag alongside traditional crafts. Tickets: 100 INR.",
     "artGalleryName": "Zapurza Museum of Art & Culture",
     "startEvent": "10:00 AM",
     "endEvent": "06:00 PM",
@@ -455,7 +461,7 @@
       {
         "name": "Kishor Langote",
         "imageUrl": "https://asset.cloudinary.com/dzuydzr7l/35b9719ec88fa9c2d9d8b3bc3978d42c",
-
+        "bio": "Kishor Langote is a contemporary Indian artist known for his striking sketches and mixed-media works like Modern Slavery and Shivaji Maharaj. His art critiques socio-political issues while celebrating cultural icons.",
         "artWorkImageUrl": [
           {
             "imageUrl": "https://asset.cloudinary.com/dzuydzr7l/1b27da155521f8b02dee8292671842a2",
@@ -538,7 +544,7 @@
     "eventImageUrl": "https://images.musement.com/cover/0014/44/thumb_1343056_cover_header.jpeg",
     "host": ["Digital Artist", "Art Therapist"],
     "hostImageUrl": "https://www.vangoghmuseum.nl/assets/9c74d738-553b-4df6-8213-39665658aaf0?w=1200&format=webp&c=71f2f1867e9b9b33a3399e92fccd81873d1e0380c17f1d2b24d5dbf4d71c7544",
-    "descriptions": "Interactive journey through Van Gogh's most famous works using projection mapping technology",
+    "descriptions": "Interactive journey through Van Gogh's most famous works using projection mapping technology. Van Gogh Immersive Experience (July 20–December 20, Amsterdam) A 360° projection exhibit at the Van Gogh Museum, blending VR landscapes and live cello performances. Tickets: 20 EUR.",
     "artGalleryName": "Van Gogh Museum",
     "startEvent": "10:00 AM",
     "endEvent": "10:00 PM",
@@ -562,7 +568,7 @@
   {
     "name": "Vincent Van Gogh",
     "imageUrl": "https://www.ordovasart.com/cms/wp-content/uploads/1.-Vincent-van-Gogh.jpg",
-
+    "bio": "Vincent Van Gogh (1853–1890), the Dutch post-impressionist master, is celebrated for Starry Night and Sunflowers. His emotive use of color and texture redefined modern art.",
     "artWorkImageUrl": [
       {
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/525px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
@@ -607,7 +613,7 @@
     "eventImageUrl": "https://images.ctfassets.net/43cg184ejz07/4eX2DHTj77EgHbh5GVyX61/aa5f22c8c7c3dfd9fb866441036ae40e/palais-et-pyramide.jpg?fm=webp&w=1024&h=683&fit=fill",
     "host": ["Chief Curator", "Art Historian"],
     "hostImageUrl": "https://thetourguy.com/wp-content/uploads/2019/05/Inside-the-Louvre-Paris-Featured-Image-940-900x420.jpeg",
-    "descriptions": "Celebrating 500 years of European art with iconic works from the Renaissance to Romanticism",
+    "descriptions": "Celebrating 500 years of European art with iconic works from the Renaissance to Romanticism. Louvre Masterpieces 2025 (May 15–June 15, Paris) Souza’s Still Life with Sewing Machine joins Renaissance to Romanticism icons at the Louvre. Tickets: 17 EUR.",
     "artGalleryName": "Louvre Museum",
     "startEvent": "09:00 AM",
     "endEvent": "06:00 PM",
@@ -631,6 +637,7 @@
   {
     "name": "Francis Newton Souza",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Indian_artist_of_Goan_origin%2C_Francis_Newton_Souza.jpg/330px-Indian_artist_of_Goan_origin%2C_Francis_Newton_Souza.jpg",
+    "bio": "Francis Newton Souza (1924–2002), a founder of India’s Progressive Artists’ Group, fused surrealism and expressionism in works like Crucifixion and Head. His bold, provocative style challenged colonial norms.", 
 
     "artWorkImageUrl": [
       {
@@ -677,7 +684,7 @@
     "eventImageUrl": "https://assets.simpleviewinc.com/simpleview/image/upload/q_75/v1/crm/newyorkstate/Untitled-1-6-_003AF87E-0262-CFFC-6720227D0A71382A-003af6ecda59588_003afb1b-d770-5890-85fdcb4e7655cdf9.jpg",
     "host": ["Architect", "Modern Art Expert"],
     "hostImageUrl": "https://cms.guggenheim-bilbao.eus/uploads/2021/05/287Galerias_Los-Locos-Anos-Veinte-scaled.jpg",
-    "descriptions": "Exploring the intersection of architectural innovation and modern artistic expression",
+    "descriptions": "Exploring the intersection of architectural innovation and modern artistic expression. Modern Architecture & Art Showcase (September 10–October 10, Guggenheim Museum, NYC) Picasso’s The Old Guitarist anchors this exploration of art and architecture. Tickets: 25 USD.",
     "artGalleryName": "Guggenheim Museum",
     "startEvent": "10:30 AM",
     "endEvent": "05:30 PM",
@@ -701,6 +708,7 @@
   {
     "name": "Pablo Picasso",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/330px-Pablo_picasso_1.jpg",
+    "bio": "Pablo Picasso (1881–1973), co-founder of Cubism, redefined 20th-century art with masterpieces like The Weeping Woman and Les Demoiselles d’Avignon.", 
 
     "artWorkImageUrl": [
       {
@@ -740,7 +748,7 @@
     "eventImageUrl": "https://asset.cloudinary.com/dzuydzr7l/b2365f8f234cb0d0be775e72d139a36c",
     "host": ["American Art Curator", "Museum Educator"],
     "hostImageUrl": "https://www.saic.edu/sites/default/files/styles/16_9_1992x1120/public/2023-06/030223_2234_0.jpg.webp?itok=Jl7Iy4XX",
-    "descriptions": "Comprehensive collection tracing American artistic development from colonial era to present",
+    "descriptions": "Comprehensive collection tracing American artistic development from colonial era to present. American Art Revolution (Permanent Collection, Art Institute of Chicago) Wood’s iconic American Gothic headlines this collection tracing U.S. art from colonial times. Tickets: 32 USD.",
     "artGalleryName": "Art Institute Of Chicago",
     "startEvent": "10:30 AM",
     "endEvent": "05:00 PM",
@@ -764,6 +772,7 @@
   {
     "name": "Grant Wood",
     "imageUrl": "https://www.thoughtco.com/thmb/ao9Nt0YyKYpYPl0cdvfkmGqXY1g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grant-wood-64f47ec218eb4158ba2dde59ce008bf7.jpg",
+    "bio": "Grant Wood (1891–1942), an American Regionalist painter, immortalized rural America in works like American Gothic. His detailed, nostalgic style became a national symbol.",
 
     "artWorkImageUrl": [
       {
@@ -800,7 +809,7 @@
     "eventImageUrl": "https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2023/04/19/Louvreextcropped.jpg",
     "host": ["Art Curator", "Gallery Owner"],
     "hostImageUrl": "https://th-i.thgim.com/public/life-and-style/9mnad7/article68969790.ece/alternates/LANDSCAPE_1200/Finding%20the%20%E2%80%98Asian%E2%80%99%20in%20Post-Impressionism%20at%20the%20Louvre%20Abu%20Dhabi",
-    "descriptions": "A cross-continental exhibition at the iconic Louvre Abu Dhabi, featuring masterpieces from global artists.",
+    "descriptions": "A cross-continental exhibition at the iconic Louvre Abu Dhabi, featuring masterpieces from global artists. Global Art Masters Exhibition 2025 (September 15–October 15, Louvre Abu Dhabi) Gauguin’s The Siesta joins Middle Eastern artists in a dialogue on cultural fusion. Free entry.",
     "artGalleryName": "Louvre Abu Dhabi",
     "startEvent": "09:00 AM",
     "endEvent": "10:00 PM",
@@ -824,6 +833,7 @@
   {
     "name": "Paul Gauguin",
     "imageUrl": "https://www.gauguin.org/assets/img/paul-gauguin.jpg",
+    "bio": "Paul Gauguin (1848–1903), a French post-impressionist, is famed for tropical works like The Siesta and Nave Nave Moe. His bold palettes and primitivist themes influenced modern art.",
 
     "artWorkImageUrl": [
       {
