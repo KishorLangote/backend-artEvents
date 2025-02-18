@@ -147,6 +147,50 @@ app.get("/artEvents/tag/:artEventTag", async (req, res) => {
 })
 
 
+ // get artist by id 
+
+ async function readArtistById(artistId){
+    try{
+      const artistById = artEvents.findById(artistId)
+      return artistById;
+    }catch (error) {
+      throw error;
+    }
+ }
+
+//  app.get("/artEvents/artists/:artistId/arts", async (req, res) => {
+//     try{
+//       const artists = await readArtistById(req.params.artistId)
+//       if(artists){
+//         res.json(artists)
+//       } else {
+//         res.status(404).json({ error: "Not found"})
+//       }
+//     } catch(error){
+//       res.status(500).json({ error: "Failed to fetch events data."})
+//     }
+//  })
+
+ // Example route for fetching artworks by artistId
+app.get("/artists/:artistId/arts", async (req, res) => {
+  const { artistId } = req.params;  // Extract artistId from the URL
+
+  try {
+    // Fetch the artworks for the artistId from the database
+    const artworks = await artEvents.find({ artistId });
+
+    if (!artworks.length) {
+      return res.status(404).json({ message: "No artworks found for this artist." });
+    }
+
+    res.json(artworks);  // Send the artworks data as JSON response
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server error" });
+  }
+});
+
+
 
 const PORT = process.env.PORT || 3000
 

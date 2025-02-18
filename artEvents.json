@@ -454,7 +454,7 @@
       "latitude": 18.5167,
       "longitude": 73.8567
     },
-    "googleMapImageUrl": "https://maps.googleapis.com/maps/api/staticmap?center=18.5167,73.8567&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7Clabel:Z%7C18.5167,73.8567&key=YOUR_API_KEY",
+    "googleMapImageUrl": "https://maps.googleapis.com/maps/api/staticmap?center=18.5167,73.8567&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7Clabel:Z%7C18.5167,73.8567&key=AIzaSyAQgFtQr4cYOlex4pnYdEOjctJUKV7QjdM",
     "entryFee": "100 INR",
     "artistCount": 50,
     "maxCapacity": 400,
