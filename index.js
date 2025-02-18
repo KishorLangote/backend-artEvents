@@ -190,6 +190,32 @@ app.get("/artEvents/artists/:artistId/arts", async (req, res) => {
   }
 });
 
+// get the art work by artist name:
+
+async function readArtWorkByName(artistName){
+  try{
+    const artistName = await artEvents.findOne({name: artistName})
+    console.log(artistName)
+    return artistName;
+  }catch(error){
+    throw error;
+  }
+}
+
+
+app.get("/artEvents/artist/:artistName", async (req, res) => {
+  try {
+    const artist = await readArtWorkByName(req.params.artistName)
+    if(artist){
+      res.json(artist)
+    } else {
+      res.status(404).json({ message: "Artist not found."})
+    }
+  } catch(error){
+    res.status(500).json({ error: "Failed to fetch data."})
+  }
+})
+
 
 
 const PORT = process.env.PORT || 3000
