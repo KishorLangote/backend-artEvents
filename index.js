@@ -172,15 +172,17 @@ app.get("/artEvents/tag/:artEventTag", async (req, res) => {
 //  })
 
  // Example route for fetching artworks by artistId
-app.get("/artists/:artistId/arts", async (req, res) => { 
+app.get("/artEvents/artists/:artistId/arts", async (req, res) => { 
   try {
+    // get artist by id..
+    const artist  = await readArtistById(req.params.artistId)
+
     // fetch the artworks by artistId from the db..
     const artworks = await readArtistById.find(req.params.artistId);
 
     if (!artworks.length) {
       return res.status(404).json({ message: "No artworks found for this artist." });
     }
-
     res.json(artworks);  
   } catch (error) {
     console.error(error);
