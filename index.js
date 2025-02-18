@@ -147,49 +147,6 @@ app.get("/artEvents/tag/:artEventTag", async (req, res) => {
 })
 
 
- // get artist by id 
-
- async function readArtistById(artistId){
-    try{
-      const artistById = artEvents.findById(artistId)
-      return artistById;
-    }catch (error) {
-      throw error;
-    }
- }
-
-//  app.get("/artEvents/artists/:artistId/arts", async (req, res) => {
-//     try{
-//       const artists = await readArtistById(req.params.artistId)
-//       if(artists){
-//         res.json(artists)
-//       } else {
-//         res.status(404).json({ error: "Not found"})
-//       }
-//     } catch(error){
-//       res.status(500).json({ error: "Failed to fetch events data."})
-//     }
-//  })
-
- // Example route for fetching artworks by artistId
-app.get("/artEvents/artists/:artistId/arts", async (req, res) => { 
-  try {
-    // get artist by id..
-    const artist  = await readArtistById(req.params.artistId)
-
-    // fetch the artworks by artistId from the db..
-    const artworks = await readArtistById.find(req.params.artistId);
-
-    if (!artworks.length) {
-      return res.status(404).json({ message: "No artworks found for this artist." });
-    }
-    res.json(artworks);  
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server error" });
-  }
-});
-
 // get the art work by artist name:
 
 async function readArtWorkByName(artistName){
