@@ -6,15 +6,15 @@
     "continent": "North America",
     "country": "USA",
     "city": "New York",
-    "eventImageUrl": "https://example.com/event-image.jpg",
+    "eventImageUrl": "https://images.unsplash.com/photo-1625358775317-a4f33370c520?q=80&w=2055&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "host": ["Artist", "Poet"],
-    "hostImageUrl": "https://example.com/host-image.jpg",
+    "hostImageUrl": "https://live.staticflickr.com/6122/5987563325_2ef11915be_k.jpg",
     "hostBy": ["Poet", "Artist", "Sculpture"],
     "descriptions": "A grand art festival showcasing contemporary and classic art pieces. International Art Festival 2025 (June 10, New York) Hosted at The Grand Art Gallery, this festival showcases 25 artists, including Johnson’s ethereal watercolors. The event features live poetry readings, workshops, and interactive sessions. Open 10 AM–8 PM, tickets ($20 USD) include access to diverse mediums, from sculptures to digital art.",
-    "artGalleryName": "The Grand Art Gallery",
+    "artGalleryName": "The Museum of Modern Art",
     "startEvent": "10:00 AM",
     "endEvent": "08:00 PM",
-    "address": "456 Art Lane, New York, USA",
+    "address": "11 W 53rd St, NY, 10019, USA",
     "coordinates": {
       "latitude": 40.712776,
       "longitude": -74.005974
@@ -71,7 +71,7 @@
 
   {
     "title": "Global Art Masters Exhibition 2025",
-    "date": "2025-09-15",
+    "date": "2025-10-05",
     "eventType": "Exhibition",
     "continent": "Asia",
     "country": "UAE",
